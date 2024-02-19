@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+
+.headerInicio{
+    margin: 0;
+    background-image: url(imagenes/fondoHeader.jpg);
+    height: 680px;
+    width: auto;
+    background-attachment: fixed;  /*es para q la imagen se quede quita mientras bajamos en la pag y parezca que se desliza*/
+    align-items: center;
+}
+
+.contenedorMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.logo{
+    color: #eeeeee;
+    font-size: 25px;
+    text-decoration-line: none;
+    position: sticky;
+}
+
+.logo:hover{
+    color: #ffffff;
+}
+
+.divMenu{
+    display: flex;
+    align-items: center;
+}
+
+.botonMenu{
+    color: #eeeeee;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 5px 5px;
+    text-decoration-line: none;
+    border: 1px solid transparent;
+}
+
+.botonMenu:hover{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    /* box-shadow: 0 0 10px 0 rgba(231, 231, 231, 0.5); */
+}
+
+.numerito{
+    background-color: #6d6d6d;
+    color: #eeeeee;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+/* MAIN */
+
+main{
+    padding: 20px 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulos{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px 10px 0px;
+}
+
+.contenedorEntradas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.imgEntrada{
+    height: 250px;
+    background-color: #eeeeee;
+}
+
+.tituloEntrada{
+    font-size: 15px;
+}
+
+.btn{
+    background-color: #914da7;
+    color: #eeeeee;
+}
+
+.btn:hover{
+    background-color: #74318a;
+    color: #eeeeee;
+}
+
+.btnAgregar, .btnVolverInicio{
+    padding: 10px;
+    background-color: #914da7;
+    color: #eeeeee;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+}
+
+.btnAgregar, .btnVolverInicio:hover{
+    background-color: #71198f;
+}
+
+.contenedorCantEntradas{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 500px;
+}
+
+.disabled{
+    display: none;
+}
+
+.contenedorInput{
+    display: flex;
+}
+
+.inputCantEntradas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.btnValidar{
+    margin-left: 5px;
+}
+
+.alert{
+    height: 60px;
+}
+
+.totalPagar{
+    text-align: center;
+}
+
+.btnAgregar{
+    width: auto;
+}
+
+.contenedorBotones{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btnComprar, .btnVaciarCarrito{
+    width: 200px;
+    background-color: #494949;
+    color: #eeeeee;
+}
+
+.divDetalle{
+    height: auto;
+}
